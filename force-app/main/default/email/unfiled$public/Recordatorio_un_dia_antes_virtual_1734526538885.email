@@ -1,0 +1,28 @@
+<html>
+ <head>
+  <title></title>
+ </head>
+ <body style="height: auto; min-height: auto;">
+  <p class="p1"><b>Hola {{{Recipient.Name}}},</b></p>
+  <p class="p2">Queremos recordarle que está matriculado en el adiestramiento <b>[Nombre del Curso]</b> que se llevará a cabo de forma virtual. A continuación, los detalles del mismo:</p>
+  <p class="p3">•<span> </span><b>Fecha:</b> [Fecha del Adiestramiento]</p>
+  <p class="p3">•<span> </span><b>Hora:</b> [Hora de Inicio]</p>
+  <p class="p3">•<span> </span><b>Duración:</b> [Duración Estimada]</p>
+  <p class="p3">•<span> </span><b>Plataforma:</b> [Zoom]</p>
+  <p class="p3">•<span> </span><b>Enlace de acceso:</b> [Enlace]</p>
+  <p class="p3">•<span> </span><b>ID de reunión:</b> [ID de la Reunión]</p>
+  <p class="p3">•<span> </span><b>Código de acceso:</b> [Código de Acceso] (si aplica)</p>
+  <p class="p2">&nbsp;</p>
+  <p class="p4"><b>Recordatorios importantes:</b></p>
+  <p class="p3">•<span> </span>Asegúrese de conectarse al menos 10 minutos antes de la hora de inicio para evitar inconvenientes técnicos.</p>
+  <p class="p3">•<span> </span>Tenga a la mano los siguientes documentos requeridos:</p>
+  <p class="p5">•<span> </span>Copia de su tarjeta del DRNA.</p>
+  <p class="p5">•<span> </span>Certificado anterior (solo para cursos de repaso si aplica).</p>
+  <p class="p3">•<span> </span>Confirme su asistencia respondiendo a este correo.</p>
+  <p class="p2">&nbsp;</p>
+  <p class="p1">Si tiene alguna duda, no dude en comunicarse con nuestro equipo antes del adiestramiento.</p>
+  <p class="p2">&nbsp;</p>
+  <p class="p1">¡Gracias por elegirnos y esperamos verle en el curso!</p>
+  <p class="p2">Cordialmente,<br /> Equipo de AESI<br /> <img alt="download16" src="{[devName:download16]}" style="max-width: 682.1px; width: 204.094px; height: 145.354px;" title="download16" /></p>
+ </body>
+</html>
