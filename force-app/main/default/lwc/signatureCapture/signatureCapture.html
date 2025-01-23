@@ -1,0 +1,19 @@
+<template>
+    <lightning-card title="Capture Signature" icon-name="custom:custom14">
+        <div class="canvas-container">
+            <canvas class="signature-canvas" lwc:dom="manual"></canvas>
+        </div>
+        <div class="button-group">
+            <lightning-button
+                label="Clear"
+                onclick={handleClear}
+                variant="neutral">
+            </lightning-button>
+            <lightning-button
+                label="Save"
+                onclick={handleSave}
+                variant="brand">
+            </lightning-button>
+        </div>
+    </lightning-card>
+</template>

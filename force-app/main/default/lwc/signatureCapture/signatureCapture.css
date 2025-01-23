@@ -1,0 +1,11 @@
+.signature-canvas {
+    border: 1px solid #ccc;
+    width: 100%;
+    height: 300px;
+    touch-action: none; /* Permite dibujar en dispositivos táctiles */
+}
+.canvas-container {
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
