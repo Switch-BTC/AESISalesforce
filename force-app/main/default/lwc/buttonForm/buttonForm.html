@@ -1,0 +1,17 @@
+<template>
+    <div class="button-container">
+        <lightning-card>
+            <div class="slds-m-around_large">
+                <template if:false={isFlowRunning}>
+                    <!-- Botón para iniciar el Flow -->
+                    <lightning-button label="Completar Inscripción" onclick={handleStartFlow} variant="brand"></lightning-button>
+                </template>
+            </div>
+   
+            <!-- Contenedor del Flow -->
+            <template if:true={isFlowRunning}>
+                <lightning-flow flow-api-name={flowApiName} onstatuschange={handleStatusChange} flow-input-variables={flowInputs}></lightning-flow>
+            </template>
+        </lightning-card>
+    </div>
+</template>

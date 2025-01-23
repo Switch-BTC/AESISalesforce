@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opportunity_Closedwon_Validation</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND(
+    ISPICKVAL(StageName, &quot;Closed Won&quot;),
+    OR(
+        ISBLANK(AccountId),  /* Assuming Account Name is linked via AccountId */
+        ISBLANK( Estimated_Working_Days__c ),
+        ISBLANK( Type_of_Service__c ),
+        ISBLANK( Units_Number__c ),
+        ISBLANK( Estimated_Start_Date__c ),
+        ISPICKVAL(Type_of_Units__c, &quot;&quot;),
+        ISPICKVAL( Type_of_Project__c , &quot;&quot;),
+        ISBLANK( Type_of_Service__c ),
+        ISBLANK( Estimated_Start_Date__c )
+    )
+)</errorConditionFormula>
+    <errorMessage>To Close Win an Opportunity the following Fields must be completed: (Account Name, Estimated Working Days, Type of Project, Units Number, Estimated Start Date, Type of Units, Type of Service, Estimated End Date)</errorMessage>
+</ValidationRule>
