@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>virtual_link</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( ISPICKVAL( Location__c , &quot;Virtual&quot;),  ISBLANK(Virtual_session_link__c )  )</errorConditionFormula>
+    <errorDisplayField>Virtual_session_link__c</errorDisplayField>
+    <errorMessage>Debe colocar el link de Zoom</errorMessage>
+</ValidationRule>

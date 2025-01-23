@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Training_Sessions</fullName>
+    <columns>NAME</columns>
+    <columns>Session_Start__c</columns>
+    <columns>Status__c</columns>
+    <columns>Seats_Available__c</columns>
+    <columns>Location__c</columns>
+    <columns>Description__c</columns>
+    <columns>Requirements__c</columns>
+    <columns>Hours__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Active,Sold Out</value>
+    </filters>
+    <label>Training Sessions</label>
+    <sharedTo>
+        <group>Public_Users</group>
+    </sharedTo>
+</ListView>
