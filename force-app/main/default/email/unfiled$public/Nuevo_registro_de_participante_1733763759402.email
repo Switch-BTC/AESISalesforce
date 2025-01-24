@@ -1,0 +1,8 @@
+<html>
+ <head>
+  <title></title>
+ </head>
+ <body style="height: auto; min-height: auto;">
+  Saludos,<br /> <br /> Un nuevo participante se ha registrado para el curso {{{Training_Session__c.Name}}}. Aquí tienes los detalles del participante:<br /> <br /> Nombre: {{{Recipient.Name}}}<br /> Correo Electrónico:{{{Recipient.Email}}}<br /> Teléfono:{{{Recipient.MobilePhone}}}<br /> <br /> Para más información, favor entrar al expediente del participante en Salesforce.<br /> <br /> Gracias.<br /> <img alt="download(16)" height="128" src="{[devName:download161]}" style="max-width: 683.05px;" title="download(16)" width="154" />
+ </body>
+</html>

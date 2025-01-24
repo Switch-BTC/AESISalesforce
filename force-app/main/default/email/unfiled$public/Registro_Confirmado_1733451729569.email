@@ -1,0 +1,14 @@
+<html>
+ <head>
+  <title></title>
+ </head>
+ <body style="height: auto; min-height: auto;">
+  !Gracias por registrarte!<br /> <br /> Saludos {{{Recipient.Name}}}<br /> <br /> Nos complace confirmar su registro para el curso: {{{Training_Session__c.Name}}}. Aquí tienes los detalles importantes:<br /> <br /> Fecha y Horario: {{{Training_Session__c.Session_Start__c}}}<br /> Ubicación: <span>611 Monserrate ST 2nd floor, Santurce, PR 00907</span><br /> <br /> Si tienes alguna pregunta o necesitas más información, no dudes en contactarnos.<br /> <br /> Estamos emocionados de tenerte con nosotros y esperamos que disfrutes esta experiencia formativa.<br /> <br /> Saludos,<br /> <img alt="download16" src="{[devName:download16]}" style="max-width: 682.1px; width: 163px; height: 137px;" title="download16" />
+  <div id="" style="left: 8px; top: 314px;">
+   &nbsp;
+  </div>
+  <div id="" style="left: 8px; top: 314px;">
+   &nbsp;
+  </div>
+ </body>
+</html>

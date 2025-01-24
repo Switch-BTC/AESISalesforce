@@ -1,0 +1,14 @@
+<html>
+ <head>
+  <title></title>
+ </head>
+ <body style="height: auto; min-height: auto;">
+  Saludos, {{{Recipient.Name}}}<br /> <br /> Estamos emocionados de anunciar nuestros nuevos adiestramientos diseñados para ayudarte a desarrollar tu carrera profesional.<br /> <br /> <a href="https://aesinternational20--aesidevop.sandbox.my.site.com/trainingevents/s/?Training_Session__c-filterId=Training_Sessions">Conoce Más Detalles</a><br /> <br /> Equipo de AESI<br /> <br /> <img alt="download16" src="{[devName:download16]}" style="max-width: 682.1px; width: 204.094px; height: 145.354px;" title="download16" />
+  <div id="" style="left: 8px; top: 224px;">
+   &nbsp;
+  </div>
+  <div id="" style="left: 8px; top: 224px;">
+   &nbsp;
+  </div>
+ </body>
+</html>
