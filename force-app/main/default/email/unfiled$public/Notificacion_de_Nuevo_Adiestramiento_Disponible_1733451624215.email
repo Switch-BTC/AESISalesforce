@@ -1,0 +1,25 @@
+<html>
+ <head>
+  <title></title>
+ </head>
+ <body style="height: auto; min-height: auto;">
+  <p class="p1"><b>Saludos {{{Recipient.Name}}},</b></p>
+  <p class="p1">Adjunto encontrará el itinerario de adiestramientos disponibles.</p>
+  <p class="p1">Para matricularse, por favor acceda al siguiente enlace y complete el <a href="https://aesinternational20--aesidevop.sandbox.my.site.com/trainingevents/s/?Training_Session__c-filterId=Training_Sessions" title="Ver eventos de entrenamiento">Formulario de registro</a>.</p>
+  <p class="p1">Recuerden también adjuntar los siguientes documentos (Requisitos Obligatorios):</p>
+  <p class="p3">•<span> </span>Copia de su tarjeta del DRNA.</p>
+  <p class="p3">•<span> </span>Para cursos de repaso, copia de su certificado anterior (si no tomó el curso con nosotros).</p>
+  <p class="p1">Estos documentos son necesarios para procesar su matrícula y notificarle en caso de cambios o cancelaciones.</p>
+  <p class="p1"><b>IMPORTANTE:</b></p>
+  <p class="p3">•<span> </span>Toda persona interesada debe llenar el formulario en el enlace proporcionado.</p>
+  <p class="p3">•<span> </span>Confirme siempre los <b>trainings</b> el día antes del ofrecimiento.<br /> &nbsp;</p>
+  <p class="p1">De tener cualquier pregunta, no dude en comunicarse con nuestro equipo.</p>
+  <p class="p1">Gracias por su atención y continuo patrocinio.</p> Cordialmente,<br /> Equipo de AESI<br /> <img alt="download16" src="{[devName:download16]}" style="max-width: 682.1px; width: 204.094px; height: 145.354px;" title="download16" />
+  <div id="" style="left: 8px; top: 224px;">
+   &nbsp;
+  </div>
+  <div id="" style="left: 8px; top: 224px;">
+   &nbsp;
+  </div>
+ </body>
+</html>
