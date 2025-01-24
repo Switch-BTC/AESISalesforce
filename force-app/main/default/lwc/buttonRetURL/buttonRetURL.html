@@ -1,0 +1,12 @@
+<template>
+    <div class="button-container">
+        <lightning-card>
+            <div class="slds-m-around_large">
+                <template if:false={isFlowRunning}>
+                    <!-- Botón para redirigir a la lista -->
+                    <lightning-button label="Regresar a lista de Training Sessions" onclick={handleRedirect} variant="brand"></lightning-button>
+                </template>
+            </div>
+        </lightning-card>
+    </div>
+</template>

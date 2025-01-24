@@ -1,0 +1,17 @@
+<html>
+ <head>
+  <title></title>
+ </head>
+ <body style="height: auto; min-height: auto;">
+  <p class="p1"><b>Saludos {{{Recipient.Name}}},</b></p>
+  <p class="p1">Tu certificado está próximo a vencer, y queremos facilitar tu renovación con opciones de adiestramientos virtuales.</p>
+  <p class="p1">Toda la información sobre las sesiones virtuales disponibles, incluyendo fechas, horarios y ubicaciones, está detallada en el siguiente enlace:</p>
+  <p class="p2"><a href="https://aesinternational20--aesidevop.sandbox.my.site.com/trainingevents/s/?Training_Session__c-filterId=Training_Sessions" title="Ver eventos de entrenamiento">Accede aquí para ver los adiestramientos virtuales</a></p>
+  <p class="p1">Recuerda que los <b>Requisitos Obligatorios</b> incluyen:</p>
+  <p class="p3">•<span> </span>Tarjeta del DRNA<br /> •<span> </span>Formulario de registro</p>
+  <p class="p1"><b>IMPORTANTE:</b></p>
+  <p class="p2">•<span> </span>Completa tu registro a través del enlace proporcionado.<br /> •<span> </span>Asegúrate de contar con conexión a internet estable.<br /> •<span> </span>Verifica los detalles del enlace de Zoom el día anterior al evento para evitar contratiempos.</p>
+  <p class="p1">De tener cualquier pregunta, no dude en comunicarse con nuestro equipo.</p>
+  <p class="p1">Gracias por su atención y continuo patrocinio.</p> Cordialmente,<br /> Equipo de AESI<br /> <img alt="download16" src="{[devName:download16]}" style="max-width: 682.1px; width: 204.094px; height: 145.354px;" title="download16" />
+ </body>
+</html>
